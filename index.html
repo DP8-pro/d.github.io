@@ -62,132 +62,298 @@
     </div>
 </header>
 <main class="main">
-    <div class="device_type">Device type</div>
-    <div class="Laptops_Tablets">
-        <div class="headline">Laptops and tables</div>
-        <div class="row_2">
-            <div class="col">
-                <div class="dev_1">
-                <ul>
-                    <li>#1 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span> 7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$599<sup>25</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
-                </div>
-
-                <div class="dev_2">
-                <ul>
-                    <li>#2 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span> 7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$1250<sup>99</sup></li>
-                </ul>
-                <input type="button" value="MORE DETAILS">
-                <input type="button" value="ADD TO CARD" class="button">
-                </div>
-            
-                <div class="dev_3">
-                <ul>
-                    <li>#3 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span>7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$399<sup>50</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
-                </div>
-            
-                <div class="dev_4">
-                <ul>
-                    <li>#4 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span>7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$599<sup>25</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
-                </div>
-            
-                <div class="dev_5">
-                <ul>
-                    <li>#5 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span>7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$1250<sup>99</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
-                </div>
-            
-                <div class="dev_6">
-                <ul>
-                    <li>#6 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span>7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$399<sup>50</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
-                </div>
-            
-                <div class="dev_7">
-                <ul>
-                    <li>#7 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span>7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$599<sup>25</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
-                </div>
-          
-                <div class="dev_8">
-                <ul>
-                    <li>#8 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span>7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$1250<sup>99</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
-                </div>
-            
-                <div class="dev_9">
-                <ul>
-                    <li>#9 Device name</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
-                    <li><span>TYPE:</span>Laptop</li>
-                    <li><span>SCREEN SIZE:</span>7 linches</li>
-                    <li><span>RAM:</span>1 Gb</li> 
-                    <li>$599<sup>50</sup></li>
-                </ul>
-                    <input type="button" value="MORE DETAILS">
-                    <input type="button" value="ADD TO CARD" class="button">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="filter">
+                    <div class="options">
+                    <form action="">    
+                        <div class="list">
+                            <ul>
+                                <li><span class="list_name"> DEVICE TYPE </span></li>
+                                <li><input id="Laptop" type="checkbox"><label for="Laptop"> Laptop </label></li>
+                                <li><input id="Tablet" type="checkbox"><label for="Tablet"> Tablet </label></li>  
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li><span class="list_name"> COLOR </span></li>
+                                <li><input id="Black" type="checkbox"><label for="Black"> Black </label></li>
+                                <li><input id="Red" type="checkbox"><label for="Red"> Red </label></li>
+                                <li><input id="Green" type="checkbox"><label for="Green"> Green </label></li>
+                                <li><input id="Blue" type="checkbox"><label for="Blue"> Blue </label> </li> 
+                                <li><input id="Orange" type="checkbox"><label for="Orange"> Orange </label></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li><span class="list_name"> RAM </span></li>
+                                <li><input id="1GB" type="checkbox"><label for="1GB"> 1GB </label></li>
+                                <li><input id="2GB" type="checkbox"><label for="2GB"> 2GB </label></li>
+                                <li><input id="4GB" type="checkbox"><label for="4GB"> 4GB </label></li>
+                                <li><input id="6GB" type="checkbox"><label for="6GB"> 6GB </label></li> 
+                                <li><input id="8GB" type="checkbox"><label for="8GB"> 8GB </label></li>
+                            </ul>
+                        </div>
+                    </form>
+                    <div class="show-options">
+                        <button value="Show more options"> Show more options ... </button> 
+                    </div>    
+                    <div class="button-submit">
+                        <button value="SUBMIT"> SUBMIT </button> 
+                    </div>       
+                    </div> 
                 </div>
             </div>
-            
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrabs">breadcrabs</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">Laptops and tablets</div>
+                    <div class="col-md-4">sort</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (17).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$599</span><sup>25</sup></p></li>
+                                    </ul>
+                                    <div class="button1">
+                                        <button value="MORE DETAILS">MORE DETAILS</button> 
+                                    </div>     
+                                    <div class="button2">
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (9).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$1250</span><sup>99</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (13).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$399</span><sup>50</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (16).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$599</span><sup>25</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (14).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$1250</span><sup>99</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (12).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$399</span><sup>50</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (15).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$599</span><sup>25</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (11).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$1250</span><sup>99</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="images/icon (13).png" alt="icon">
+                                <div class="like">
+                                    <button type="submit" id="like"><img src="images/icon (5).png" alt="icon"></button>
+                                </div>
+                                <div class="lightbox">
+                                    <button type="submit" id="lightbox"><img src="images/icon (8).png" alt="icon"></button>
+                                </div>
+                            </div>
+                            <div class="product-body">
+                                <div class="dev">
+                                    <ul>
+                                        <li><p><span class="dev_name"> #1 Device name </span></p></li>
+                                        <li><p><span class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit </span></p></li>
+                                        <li><p><span class="parameters">TYPE:</span> Laptop </p></li>
+                                        <li><p><span class="parameters">SCREEN SIZE:</span> 7 inches </p></li>
+                                        <li><p><span class="parameters">RAM:</span> 1 Gb </p></li> 
+                                        <li><p><span class="price_dol">$399</span><sup>50</sup></p></li>
+                                    </ul>
+                                        <button value="MORE DETAILS">MORE DETAILS</button>  
+                                        <button value="ADD TO CARD">ADD TO CARD <img src="images/icon (2).png" alt="icon"></button> 
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </main>
+
 <footer class= "footer"></footer>
 
 </body>
