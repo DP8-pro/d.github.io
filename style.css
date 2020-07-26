@@ -374,15 +374,15 @@ body {
     margin: 10px;
 }
 
-.options > input [type='checkbox'] {
+input [type='checkbox'] {
     display: none;
 }
 
-.options > input [type='checkbox']:checked + .options > label:before {
+input [type='checkbox']:checked + label:before {
     background-color: white;
 
 } 
-.options > label:before {
+label:before {
     content: "";
     display: inline-block;
     width: 10px;
